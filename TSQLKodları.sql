@@ -68,5 +68,5 @@ else
 begin
 insert into Kur (ID, ParaBirimiID,Alis,Satis,OlusturmaTarih) values (@ID, @ParaBirimiID,@Alis,@Satis,@OlusturmaTarih)
 end
-
+ 
 end
