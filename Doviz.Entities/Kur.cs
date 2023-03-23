@@ -13,6 +13,5 @@ namespace Doviz.Entities
         public decimal Alis { get; set; }
         public decimal Satis { get; set; }
         public DateOnly OlusturmaTarih { get; set; }
-
     }
 }
