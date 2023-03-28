@@ -6,5 +6,11 @@ namespace Doviz.WinApp
         {
             InitializeComponent();
         }
+
+        private void btnJsonKurgu_Click(object sender, EventArgs e)
+        {
+            Doviz.Core.BusinessLogicLayer BLL = new Core.BusinessLogicLayer();
+            BLL.KurBilgileriniGuncelle();
+        }
     }
 }

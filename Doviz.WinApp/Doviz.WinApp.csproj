@@ -8,4 +8,9 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Doviz.Core\Doviz.Core.csproj" />
+    <ProjectReference Include="..\Doviz.Entities\Doviz.Entities.csproj" />
+  </ItemGroup>
+
 </Project>

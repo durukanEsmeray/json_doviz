@@ -13,6 +13,6 @@ namespace Doviz.Entities
         public Guid ParaBirimiID { get; set; }
         public decimal Alis { get; set; }
         public decimal Satis { get; set; }
-        public DateOnly OlusturmaTarih { get; set; }
+        public DateTime OlusturmaTarih { get; set; }
     }
 }
